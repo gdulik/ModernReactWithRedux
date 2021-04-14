@@ -13,7 +13,7 @@ function SearchBar({ handleFormSubmit }) {
 		<div className="search-bar ui segment">
 			<form className="ui form" onSubmit={handleSubmit}>
 				<div className="field">
-					<label htmlFor="search">Video Search</label>
+					<label htmlFor="search">Search For a Video</label>
 					<input
 						id="search"
 						type="text"
