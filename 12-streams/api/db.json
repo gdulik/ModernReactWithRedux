@@ -1,20 +1,26 @@
 {
-	"streams": [
-		{
-			"title": "New gaming stream",
-			"description": "This is a great stream!",
-			"id": 1
-		},
-		{
-			"title": "Other stream",
-			"description": "Here is some stream!",
-			"id": 2
-		},
-		{
-			"title": "My Stream!",
-			"description": "This stream is mine",
-			"userId": "101079789997900192146",
-			"id": 3
-		}
-	]
+  "streams": [
+    {
+      "title": "New gaming stream",
+      "description": "This is a great stream!",
+      "id": 1
+    },
+    {
+      "title": "Other stream",
+      "description": "Here is some stream!",
+      "id": 2
+    },
+    {
+      "title": "My Stream!",
+      "description": "This stream is mine",
+      "userId": "101079789997900192146",
+      "id": 3
+    },
+    {
+      "title": "New Stream 3",
+      "description": "Stream description 2",
+      "userId": "101079789997900192146",
+      "id": 4
+    }
+  ]
 }
