@@ -11,16 +11,10 @@
       "id": 2
     },
     {
-      "title": "My Stream!",
+      "title": "My Stream!1234",
       "description": "This stream is mine",
       "userId": "101079789997900192146",
       "id": 3
-    },
-    {
-      "title": "New Stream 3",
-      "description": "Stream description 2",
-      "userId": "101079789997900192146",
-      "id": 4
     }
   ]
 }

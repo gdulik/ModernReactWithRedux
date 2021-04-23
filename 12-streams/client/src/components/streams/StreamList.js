@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 import { fetchStreams } from '../../actions';
 
 function StreamList({ isSignedIn, currentUserId, streams, fetchStreams }) {
-	useEffect(() => {
-		fetchStreams();
-		// eslint-disable-next-line
-	}, []);
+	useEffect(
+		() => {
+			fetchStreams();
+		},
+		[ fetchStreams ]
+	);
 
 	const renderAdmin = (stream) => {
 		if (stream.userId === currentUserId) {
@@ -37,7 +39,9 @@ function StreamList({ isSignedIn, currentUserId, streams, fetchStreams }) {
 					{renderAdmin(stream)}
 					<i className="large middle aligned icon camera" />
 					<div className="content">
-						{stream.title}
+						<Link to={`/streams/${stream.id}`} className="header">
+							{stream.title}
+						</Link>
 						<div className="description">{stream.description}</div>
 					</div>
 				</div>
