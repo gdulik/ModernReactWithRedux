@@ -1,0 +1,15 @@
+import React, { useContext } from 'react';
+import LanguageContext from '../contexts/LanguageContext';
+
+function Field() {
+	const { language } = useContext(LanguageContext);
+	const text = language === 'english' ? 'Name' : 'Naam';
+	return (
+		<div className="ui field">
+			<label>{text}</label>
+			<input />
+		</div>
+	);
+}
+
+export default Field;
